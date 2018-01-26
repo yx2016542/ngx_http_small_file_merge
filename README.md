@@ -10,10 +10,12 @@ http://www.xxx.com/data/ts/0_5840_v01_mp4.ts?file_list=0_5840_v01_mp4.ts:5840_12
 1.配置
 
  location ~ /data {
+ 
         file_merge on; 
         file_merge_number 5;   
     }   
-指令
+   
+2.指令
 
 file_merge on | off
 
