@@ -14,6 +14,7 @@
         }   
         
 2. 指令
+     
       file_merge on | off
       default: file_merge off
       context: http, server, location
