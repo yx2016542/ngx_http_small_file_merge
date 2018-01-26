@@ -1,3 +1,5 @@
 # ngx_http_small_file_merge
 
-In today's era, video has become the most important medium of entertainment. In the current video file, using HLS file more and more similar, but relatively small files send large files, low efficiency, especially for the poor network situation, constantly sending small file requests, the low efficiency of the project. in this case, the corresponding optimization of small files a sent to improve the transmission efficiency.
+在移动时代，使用hls来播放小视频越来越多。相对于大文件，小文件的发送效率低下。特别在网络较差的环境中，用户体验更加不好。在这种情况下，在服务器端对小文件来进行按块发送，对提高网络的利用率有较大的提升。
+
+
