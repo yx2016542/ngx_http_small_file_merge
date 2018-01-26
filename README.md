@@ -7,23 +7,33 @@
 
 2. http://www.xxx.com/data/ts/0_5840_v01_mp4.ts?file_list=0_5840_v01_mp4.ts:5840_12400_v01_mp4.ts:12400_22400_v01_mp4.ts:22400_31400_v01_mp4.ts
 
+
 1.配置
+
      location ~ /data {
             file_merge on; 
             file_merge_number 5;   
         }   
         
+        
 2. 指令
      
       file_merge on | off
+      
       default: file_merge off
+      
       context: http, server, location
+      
       说明:开启按块发送功能;
       
       
+      
       file_merge_number number;
+      
       default:file_merge_number 10;
+      
       context: http, server, location
+      
       说明:设置一次最多发送多少个文件;
       
 
